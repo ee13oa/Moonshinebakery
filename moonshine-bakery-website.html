@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" type="text/css" href="stylesheetmain.css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Moonshine Bakery</title>
+</head>
+<body>
+
+  <p></p>
+
+<div class="tab">
+
+  <button class="tablinks" onclick="openTag(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openTag(event, 'Our Story')">Our Story</button>
+  <button class="tablinks" onclick="openTag(event, 'Cakes 'n' Bakes')">Cakes 'n' Bakes</button>
+  <button class="tablinks" onclick="openTag(event, 'Events')">Events</button>
+  <button class="tablinks" onclick="openTag(event, 'Contact Us')" id="defaultOpen">Contact Us</button>
+
+</div>
+
+
+<div id="Contact Us" class="tabcontent">
+  <div style='text-indent:20px; line-height:65%'>
+    <p>Research Student  (01/04/2014-) </p>
+	  <p>Institute for Transport Studies</p>
+	  <p> University of Leeds </p>
+    <head>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+      <meta charset="utf-8">
+      <title>Bakery Shop</title>
+      <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+          height: 500px;
+      width:500px;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+          height: 500px;
+      width:1500px;
+          margin: 10px;
+          padding: 0;
+        }
+      </style>
+
+    <body>
+      <div id="map"></div>
+      <script>
+
+        function initMap() {
+          var myLatLng = {lat: 53.807460, lng: -1.560430};
+
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17,
+            center: myLatLng
+          });
+
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBrYirkhkIUbnK9WEKubB6adYV5dlH5VcU &callback=initMap">
+      </script>
+    </body>
+ <br>
+
+    <p>  <a href="https://twitter.com/MoonshineBakery">Twitter</a>
+         <a href="https://www.facebook.com/pg/OfficialMoonshineBakery/">Facebook</a>
+         <a href="https://www.instagram.com/officialmoonshinebakery/">Instagram</a> </p>
+
+  </div>
+</div>
+
+<div id="Home" class="tabcontent">
+  <div style='text-indent:10px'>
+    <p><span style="display: inline-block; width: 300px;">M.SC. in Transport Planning</span> <span style="display: inline-block; width: 130px;"> 2012-2013</span> University of Leeds</a> </p>
+    <p><span style="display: inline-block; width: 300px;">M.CD. in Town and Regional Planning</span> <span style="display: inline-block; width: 130px;"> 2010-2011</span> University of Liverpool</a> </p>
+	  <p><span style="display: inline-block; width: 300px;">B.E. in Town Planning</span> <span style="display: inline-block; width: 130px;"> 2005-2010</span> Beijing University of Civil Engineering and Architecture</a> </p>
+  </div>
+</div>
+
+<div id="Work" class="tabcontent">
+  <div style='text-indent:10px'>
+	<p><span style="display: inline-block; width: 200px;">Internship</span> <span style="display: inline-block; width: 200px;">10/2009-12/2009</span> Department of Tourism Planning, China Academy of Urban Planning and Design</p>
+  </div>
+</div>
+
+<div id="Cakes 'n' Bakes" class="tabcontent">
+  <ul>
+	  <li>Credible Speed Limit</li>
+    <li>Risk Perception</li>
+    <li>Driving Behaviour</li>
+    <li>Speed Management</li>
+<br>
+    <iframe width="900" height="600" src="https://www.youtube.com/embed/RcDnSRD2RfY?autoplay=1" align="left">
+    </iframe>
+</ul>
+<br>
+<br>
+<ul>
+        <div id="butong_net_left" style="overflow:hidden;width:1500px;left;margin:5px auto">
+        <table cellpadding="0" cellspacing="0" border="1" align="left margin:5px auto">
+         <tr><td id="butong_net_left1" valign="top" align="left">
+         <table cellpadding="2" cellspacing="0" border="1" align="left">
+         <tr align="left">
+         <td><img src="file:///F|/Exercise/1.jpg" height="400" align="left"></td>
+         <td><img src="file:///F|/Exercise/2.jpg" height="400" align="left"></td>
+         <td><img src="file:///F|/Exercise/3.jpg" height="400" align="left"></td>
+         <td><img src="file:///F|/Exercise/4.jpg" height="400" align="left"></td>
+         <td><img src="file:///F|/Exercise/5.jpg" height="400" align="left"></td>
+         </tr>
+         </table>
+         </td>
+         <td id="butong_net_left2" valign="top"></td>
+         </tr>
+         </table>
+         </div>
+         <script>
+         var speed=1
+        butong_net_left2.innerHTML=butong_net_left1.innerHTML
+         function Marquee3(){
+         if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0)
+         butong_net_left.scrollLeft-=butong_net_left1.offsetWidth
+         else{
+         butong_net_left.scrollLeft++
+         }
+         }
+         var MyMar3=setInterval(Marquee3,speed)
+         butong_net_left.onmouseover=function() {clearInterval(MyMar3)}
+         butong_net_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
+         </script>
+
+         <br>
+
+
+  </ul>
+</div>
+
+<div id="Events" class="Events">
+</div>
+
+  <body>
+
+
+
+  </div>
+</div>
+
+
+<br>
+
+<script>
+function openTag(evt, tagName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tagName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
